@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 import webapp2
-
+# ddd
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type']='text/plain'
